@@ -1,0 +1,5 @@
+kdevelop-php-docs (1.0.0~rc2-1) experimental; urgency=low
+
+  * Initial release. (Closes: #578228)
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 17 Apr 2010 19:45:53 +0300
