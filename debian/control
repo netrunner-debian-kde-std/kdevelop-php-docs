@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>
 Build-Depends: debhelper (>= 7.4.15), cmake (>= 2.8.0), pkg-kde-tools (>= 0.6.4),
- kdevplatform-dev (>= 0.10.2)
+ kdevplatform-dev (>= 1.0.0)
 Standards-Version: 3.8.4
 Homepage: http://www.kdevelop.org/
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdevelop-php-docs
@@ -12,7 +12,7 @@ Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdevelop-php-docs
 
 Package: kdevelop-php-docs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdevelop (>= 4:3.10.2)
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdevelop (>= 4:4.0.0)
 Description: PHP documentation plugin for KDevelop
  KDevelop is an easy to use integrated development environment for KDE.
  It supports a wide range of programming languages and features project
