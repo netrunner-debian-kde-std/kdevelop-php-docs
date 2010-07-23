@@ -4,6 +4,6 @@
 #export DH_VERBOSE=1
 
 %:
-	dh $@ --parallel --with kde
+	dh $@ --parallel --list-missing --with kde
 
 .PHONY: override_dh_auto_test
