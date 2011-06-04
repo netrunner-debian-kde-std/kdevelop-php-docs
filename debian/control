@@ -4,11 +4,11 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>
 Build-Depends: debhelper (>= 7.4.15), cmake (>= 2.8.0), pkg-kde-tools (>= 0.6.4),
- kdevplatform-dev (>= 1.0.1)
-Standards-Version: 3.9.0
+ kdevplatform-dev (>= 1.2.0), libqtwebkit-dev
+Standards-Version: 3.9.2
 Homepage: http://www.kdevelop.org/
-Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdevelop-php-docs
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdevelop-php-docs/#_trunk_packages_kdevelop-php-docs_
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/kdevelop-php-docs.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-std/kdevelop-php-docs.git
 
 Package: kdevelop-php-docs
 Architecture: any
@@ -21,178 +21,26 @@ Description: PHP documentation plugin for KDevelop
  .
  This package contains the PHP documentation plugin.
 
-Package: kdevelop-php-docs-l10n-ca
+Package: kdevelop-php-docs-l10n
 Section: localization
 Architecture: all
-Recommends: kdevplatform-l10n-ca, kdevelop-l10n-ca
-Provides: kdevelop-php-docs-l10n
-Description: Catalan (ca) localization for KDevelop PHP documentation plugin
- This package contains the Catalan translations for KDevelop PHP documentation
- plugin.
- .
- This package is part of the PHP documentation plugin for KDevelop.
-
-Package: kdevelop-php-docs-l10n-cavalencia
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-cavalencia, kdevelop-l10n-cavalencia
-Provides: kdevelop-php-docs-l10n
-Description: Southern Catalan (Valencian) (ca@valencia) files for PHP documentation plugin
- This package contains the Southern Catalan (Valencian) translations for
- KDevelop PHP documentation plugin.
- .
- This package is part of the PHP documentation plugin for KDevelop.
-
-Package: kdevelop-php-docs-l10n-da
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-da, kdevelop-l10n-da
-Provides: kdevelop-php-docs-l10n
-Description: Danish (da) localization for KDevelop PHP documentation plugin
- This package contains the Danish translations for KDevelop PHP documentation
- plugin.
- .
- This package is part of the PHP documentation plugin for KDevelop.
-
-Package: kdevelop-php-docs-l10n-engb
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-engb, kdevelop-l10n-engb
-Provides: kdevelop-php-docs-l10n
-Description: British English (en_GB) localization for KDevelop PHP documentation plugin
- This package contains the British English translations for KDevelop PHP
- documentation plugin.
- .
- This package is part of the PHP documentation plugin for KDevelop.
-
-Package: kdevelop-php-docs-l10n-es
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-es, kdevelop-l10n-es
-Provides: kdevelop-php-docs-l10n
-Description: Spanish (es) localization for KDevelop PHP documentation plugin
- This package contains the Spanish translations for KDevelop PHP documentation
- plugin.
- .
- This package is part of the PHP documentation plugin for KDevelop.
-
-Package: kdevelop-php-docs-l10n-et
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-et, kdevelop-l10n-et
-Provides: kdevelop-php-docs-l10n
-Description: Estonian (et) localization for KDevelop PHP documentation plugin
- This package contains the Estonian translations for KDevelop PHP documentation
- plugin.
- .
- This package is part of the PHP documentation plugin for KDevelop.
-
-Package: kdevelop-php-docs-l10n-fr
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-fr, kdevelop-l10n-fr
-Provides: kdevelop-php-docs-l10n
-Description: French (fr) localization for KDevelop PHP documentation plugin
- This package contains the French translations for KDevelop PHP documentation
- plugin.
- .
- This package is part of the PHP documentation plugin for KDevelop.
-
-Package: kdevelop-php-docs-l10n-gl
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-gl, kdevelop-l10n-gl
-Provides: kdevelop-php-docs-l10n
-Description: Galician (gl) localization for KDevelop PHP documentation plugin
- This package contains the Galician translations for KDevelop PHP documentation
- plugin.
- .
- This package is part of the PHP documentation plugin for KDevelop.
-
-Package: kdevelop-php-docs-l10n-it
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-it, kdevelop-l10n-it
-Provides: kdevelop-php-docs-l10n
-Description: Italian (it) localization for KDevelop PHP documentation plugin
- This package contains the Italian translations for KDevelop PHP documentation
- plugin.
- .
- This package is part of the PHP documentation plugin for KDevelop.
-
-Package: kdevelop-php-docs-l10n-nds
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-nds, kdevelop-l10n-nds
-Provides: kdevelop-php-docs-l10n
-Description: Low Saxon (nds) localization for KDevelop PHP documentation plugin
- This package contains the Low Saxon translations for KDevelop PHP
- documentation plugin.
- .
- This package is part of the PHP documentation plugin for KDevelop.
-
-Package: kdevelop-php-docs-l10n-nl
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-nl, kdevelop-l10n-nl
-Provides: kdevelop-php-docs-l10n
-Description: Dutch (nl) localization for KDevelop PHP documentation plugin
- This package contains the Dutch translations for KDevelop PHP documentation
- plugin.
- .
- This package is part of the PHP documentation plugin for KDevelop.
-
-Package: kdevelop-php-docs-l10n-pt
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-pt, kdevelop-l10n-pt
-Provides: kdevelop-php-docs-l10n
-Description: Portugese (pt) localization for KDevelop PHP documentation plugin
- This package contains the Portugese translations for KDevelop PHP documentation
- plugin.
- .
- This package is part of the PHP documentation plugin for KDevelop.
-
-Package: kdevelop-php-docs-l10n-ptbr
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-ptbr, kdevelop-l10n-ptbr
-Provides: kdevelop-php-docs-l10n
-Description: Brazilian Portugese (pt_BR) localization for KDevelop PHP documentation plugin
- This package contains the Brazilian Portugese translations for KDevelop PHP
- documentation plugin.
- .
- This package is part of the PHP documentation plugin for KDevelop.
-
-Package: kdevelop-php-docs-l10n-sv
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-sv, kdevelop-l10n-sv
-Provides: kdevelop-php-docs-l10n
-Description: Swedish (sv) localization for KDevelop PHP documentation plugin
- This package contains the Swedish translations for KDevelop PHP documentation
- plugin.
- .
- This package is part of the PHP documentation plugin for KDevelop.
-
-Package: kdevelop-php-docs-l10n-uk
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-uk, kdevelop-l10n-uk
-Provides: kdevelop-php-docs-l10n
-Description: Ukrainian (uk) localization for KDevelop PHP documentation plugin
- This package contains the Ukrainian translations for KDevelop PHP documentation
- plugin.
- .
- This package is part of the PHP documentation plugin for KDevelop.
-
-Package: kdevelop-php-docs-l10n-zhtw
-Section: localization
-Architecture: all
-Recommends: kdevplatform-l10n-zhtw, kdevelop-l10n-zhtw
-Provides: kdevelop-php-docs-l10n
-Description: Chinese Traditional (zh_TW) localization for KDevelop PHP documentation plugin
- This package contains the Chinese Traditional translations for KDevelop PHP
- documentation plugin.
+Breaks: kdevelop-php-docs-l10n-ca, kdevelop-php-docs-l10n-cavalencia,
+ kdevelop-php-docs-l10n-da, kdevelop-php-docs-l10n-engb,
+ kdevelop-php-docs-l10n-es, kdevelop-php-docs-l10n-et,
+ kdevelop-php-docs-l10n-fr, kdevelop-php-docs-l10n-gl,
+ kdevelop-php-docs-l10n-it, kdevelop-php-docs-l10n-nds,
+ kdevelop-php-docs-l10n-nl, kdevelop-php-docs-l10n-pt,
+ kdevelop-php-docs-l10n-ptbr, kdevelop-php-docs-l10n-sv,
+ kdevelop-php-docs-l10n-uk, kdevelop-php-docs-l10n-zhtw
+Replaces: kdevelop-php-docs-l10n-ca, kdevelop-php-docs-l10n-cavalencia,
+ kdevelop-php-docs-l10n-da, kdevelop-php-docs-l10n-engb,
+ kdevelop-php-docs-l10n-es, kdevelop-php-docs-l10n-et,
+ kdevelop-php-docs-l10n-fr, kdevelop-php-docs-l10n-gl,
+ kdevelop-php-docs-l10n-it, kdevelop-php-docs-l10n-nds,
+ kdevelop-php-docs-l10n-nl, kdevelop-php-docs-l10n-pt,
+ kdevelop-php-docs-l10n-ptbr, kdevelop-php-docs-l10n-sv,
+ kdevelop-php-docs-l10n-uk, kdevelop-php-docs-l10n-zhtw
+Description: Localization for KDevelop PHP documentation plugin
+ This package contains the translations for KDevelop PHP documentation plugin.
  .
  This package is part of the PHP documentation plugin for KDevelop.

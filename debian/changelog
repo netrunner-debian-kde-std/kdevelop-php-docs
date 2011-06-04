@@ -1,3 +1,15 @@
+kdevelop-php-docs (1.2.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump kdevplatform-dev build dependency version.
+  * Add libqtwebkit-dev build dependency.
+  * Switch Vcs-* fields to the new repository at git.debian.org.
+  * Merge localization packages into kdevelop-php-docs-l10n.
+  * Add Breaks to previous localization packages.
+  * Add Replaces to previous localization packages.
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 04 Jun 2011 14:15:56 +0300
+
 kdevelop-php-docs (1.0.1-1) unstable; urgency=low
 
   * New upstream release.
