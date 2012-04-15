@@ -5,6 +5,7 @@ kdevelop-php-docs (1.3.1-0r0) UNRELEASED; urgency=low
   [ Andreas Cord-Landwehr ]
   * Update debian/copyright file.
   * Bump Standards-Version to 3.9.3: no changes needed.
+  * Bump kdevplatform-dev build dependency version.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Nov 2011 16:39:00 +0100
 
