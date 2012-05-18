@@ -14,6 +14,7 @@ Package: kdevelop-php-docs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdevelop (>= 4:4.0.1)
 Suggests: kdevelop-php-docs-l10n
+Enhances: kdevelop
 Description: PHP documentation plugin for KDevelop
  KDevelop is an easy to use integrated development environment for KDE.
  It supports a wide range of programming languages and features project
