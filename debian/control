@@ -24,6 +24,7 @@ Description: PHP documentation plugin for KDevelop
 Package: kdevelop-php-docs-l10n
 Section: localization
 Architecture: all
+Depends: ${misc:Depends}
 Breaks: kdevelop-php-docs-l10n-ca, kdevelop-php-docs-l10n-cavalencia,
  kdevelop-php-docs-l10n-da, kdevelop-php-docs-l10n-engb,
  kdevelop-php-docs-l10n-es, kdevelop-php-docs-l10n-et,
