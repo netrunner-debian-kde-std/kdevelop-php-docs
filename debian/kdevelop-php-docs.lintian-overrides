@@ -1,2 +1,4 @@
 # php-docs is the name of the plugin
 kdevelop-php-docs: wrong-section-according-to-package-name kdevelop-php-docs => doc
+# php-docs is the name of the plugin
+kdevelop-php-docs: documentation-package-not-architecture-independent
