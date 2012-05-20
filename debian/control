@@ -2,7 +2,8 @@ Source: kdevelop-php-docs
 Section: devel
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Fathi Boudra <fabo@debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>,
+ Andreas Cord-Landwehr <cola@uni-paderborn.de>
 Build-Depends: debhelper (>= 9), cmake (>= 2.8.0), pkg-kde-tools (>= 0.6.4),
  kdevplatform-dev (>= 1.3.1), libqtwebkit-dev
 Standards-Version: 3.9.3
