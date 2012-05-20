@@ -43,7 +43,7 @@ Replaces: kdevelop-php-docs-l10n-ca, kdevelop-php-docs-l10n-cavalencia,
  kdevelop-php-docs-l10n-nl, kdevelop-php-docs-l10n-pt,
  kdevelop-php-docs-l10n-ptbr, kdevelop-php-docs-l10n-sv,
  kdevelop-php-docs-l10n-uk, kdevelop-php-docs-l10n-zhtw
-Description: Localization for KDevelop PHP documentation plugin
+Description: localization files for KDevelop PHP documentation plugin
  This package contains the translations for KDevelop PHP documentation plugin.
  .
  This package is part of the PHP documentation plugin for KDevelop.
