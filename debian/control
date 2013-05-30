@@ -9,7 +9,7 @@ Build-Depends: cmake (>= 2.8.0),
                kdevplatform-dev (>= 1.5.0),
                libqtwebkit-dev,
                pkg-kde-tools (>= 0.6.4)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: http://www.kdevelop.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/kdevelop-php-docs.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-std/kdevelop-php-docs.git
