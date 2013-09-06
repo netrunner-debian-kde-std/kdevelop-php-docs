@@ -11,8 +11,8 @@ Build-Depends: cmake (>= 2.8.0),
                pkg-kde-tools (>= 0.6.4)
 Standards-Version: 3.9.4
 Homepage: http://www.kdevelop.org/
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/kdevelop-php-docs.git
-Vcs-Git: git://git.debian.org/pkg-kde/kde-std/kdevelop-php-docs.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/kdevelop-php-docs.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/kdevelop-php-docs.git
 
 Package: kdevelop-php-docs
 Architecture: any
