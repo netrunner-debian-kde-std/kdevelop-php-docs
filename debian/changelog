@@ -1,5 +1,6 @@
-kdevelop-php-docs (1.5.2-0) UNRELEASED; urgency=low
+kdevelop-php-docs (1.5.2-1) unstable; urgency=low
 
+  * Team upload.
   * New upstream release.
 
   [ Andreas Cord-Landwehr ]
@@ -7,7 +8,7 @@ kdevelop-php-docs (1.5.2-0) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.5: no changes needed.
   * Update debian/watch file to track xz compress tarballs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Nov 2013 18:56:48 +0100
+ -- Pino Toscano <pino@debian.org>  Sat, 18 Jan 2014 10:46:16 +0100
 
 kdevelop-php-docs (1.5.1-1) unstable; urgency=low
 
