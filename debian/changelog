@@ -4,6 +4,7 @@ kdevelop-php-docs (1.6.0-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Bump kdevplatform-dev build dependency to 1.6.0.
+  * Bump kdevelop runtime dependency to 4.6.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 19 Jan 2014 12:15:08 +0100
 
