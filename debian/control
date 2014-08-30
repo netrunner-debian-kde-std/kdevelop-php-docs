@@ -16,7 +16,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/kdevelop-php-docs.git
 
 Package: kdevelop-php-docs
 Architecture: any
-Depends: kdevelop (>= 4:4.6.0), ${misc:Depends}, ${shlibs:Depends}
+Depends: kdevelop (>= 4:4.7.0), ${misc:Depends}, ${shlibs:Depends}
 Suggests: kdevelop-php-docs-l10n
 Enhances: kdevelop
 Description: PHP documentation plugin for KDevelop
