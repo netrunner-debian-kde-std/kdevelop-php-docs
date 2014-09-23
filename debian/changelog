@@ -1,5 +1,6 @@
-kdevelop-php-docs (1.7.0-0r1) UNRELEASED; urgency=medium
+kdevelop-php-docs (1.7.0-1) unstable; urgency=medium
 
+  * Team upload.
   * New upstream release.
 
   [ Andreas Cord-Landwehr ]
@@ -9,7 +10,7 @@ kdevelop-php-docs (1.7.0-0r1) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Prepared for upstream release 1.6.0.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 19 Jan 2014 12:15:08 +0100
+ -- Pino Toscano <pino@debian.org>  Tue, 23 Sep 2014 23:20:10 +0200
 
 kdevelop-php-docs (1.5.2-1) unstable; urgency=low
 
