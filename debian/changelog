@@ -1,3 +1,10 @@
+kdevelop-php-docs (1.7.2-0r1) UNRELEASED; urgency=medium
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Jan 2016 11:12:25 +0100
+
 kdevelop-php-docs (1.7.0-1) unstable; urgency=medium
 
   * Team upload.
